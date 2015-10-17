@@ -5,8 +5,9 @@
   "main"         : "server.js",
   "author"       : "LanceW",
   "dependencies" : {
-    "express"    : "latest",
     "request"    : "latest",
-    "cheerio"    : "latest"
+    "cheerio"    : "latest",
+    "tabletojson" : "latest",
+    "lodash" : "latest"
   }
 }
