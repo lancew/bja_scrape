@@ -1,13 +1,19 @@
 {
-  "name"         : "bja-web-scraper",
-  "version"      : "0.0.1",
-  "description"  : "Scrape BJA Website.",
-  "main"         : "server.js",
-  "author"       : "LanceW",
-  "dependencies" : {
-    "request"    : "latest",
-    "cheerio"    : "latest",
-    "tabletojson" : "latest",
-    "lodash" : "latest"
-  }
+  "name": "bja-web-scraper",
+  "version": "0.0.1",
+  "description": "Scrape BJA Website.",
+  "main": "server.js",
+  "author": "LanceW",
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+    "tabletojson": "latest",
+    "lodash": "latest",
+    "snyk": "^1.32.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
