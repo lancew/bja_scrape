@@ -9,3 +9,6 @@ patch:
   'npm:tough-cookie:20160722':
     - tabletojson > request > tough-cookie:
         patched: '2017-05-31T21:16:01.141Z'
+  'npm:tough-cookie:20170905':
+    - tabletojson > request > tough-cookie:
+        patched: '2017-09-27T03:51:05.211Z'
