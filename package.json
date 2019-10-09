@@ -9,7 +9,7 @@
     "cheerio": "latest",
     "tabletojson": "latest",
     "lodash": "latest",
-    "snyk": "^1.64.0"
+    "snyk": "^1.232.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
