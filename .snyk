@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -12,3 +12,10 @@ patch:
   'npm:tough-cookie:20170905':
     - tabletojson > request > tough-cookie:
         patched: '2018-01-02T20:54:41.613Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-06T07:02:25.946Z'
+    - cheerio > lodash:
+        patched: '2020-05-06T07:02:25.946Z'
+    - tabletojson > cheerio > lodash:
+        patched: '2020-05-06T07:02:25.946Z'
